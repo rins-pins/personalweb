@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C9CAD9;
+    color: #576490;
+    min-height: 100vh;
+}
+
+header, section, footer {
+    flex: 0 0 auto; 
+}
+
+
+header {
+    background-color: #7796CB;
+    color: #576490;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.projects {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-box {
+    background-color: #D1D2F9;
+    border: 1px solid #576490;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+.project-box h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.project-box p {
+    margin: 0 0 15px;
+}
+
+.project-box a {
+    text-decoration: none;
+    color: #7796CB;
+    font-weight: bold;
+}
+
+.project-box a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #7796CB;
+    color: #A3BCF9;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.about-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #D1D2F9;
+    border-top: 1px solid #576490;
+    border-bottom: 1px solid #576490;
+    margin: 20px 0;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.about-me-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.about-me-text {
+    max-width: 600px;
+}
+
+.about-me-text h2 {
+    margin: 0 0 10px;
+    font-size: 2em;
+}
+
+.about-me-text p {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+.project-details {
+    flex: 1 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+.game-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;            
+}
+
+iframe {
+    max-width: 100%;         
+    max-height: 100%;
+    border: none;            
+}
+
